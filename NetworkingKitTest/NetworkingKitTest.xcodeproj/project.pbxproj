@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -20,7 +20,7 @@
 		719DE2B022BA7BB8008A3363 /* Completable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 719DE2A522BA7BB7008A3363 /* Completable.swift */; };
 		719DE2B122BA7BB8008A3363 /* Returnable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 719DE2A622BA7BB7008A3363 /* Returnable.swift */; };
 		719DE2B222BA7BB8008A3363 /* EndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 719DE2A722BA7BB7008A3363 /* EndPoint.swift */; };
-		719DE2B322BA7BB8008A3363 /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 719DE2A822BA7BB8008A3363 /* Networking.swift */; };
+		719DE2B322BA7BB8008A3363 /* NetworkingKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 719DE2A822BA7BB8008A3363 /* NetworkingKit.swift */; };
 		719DE2B422BA7BB8008A3363 /* RetryManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 719DE2AA22BA7BB8008A3363 /* RetryManager.swift */; };
 		719DE2B522BA7BB8008A3363 /* CompleteHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 719DE2AB22BA7BB8008A3363 /* CompleteHandler.swift */; };
 		719DE2B622BA7BB8008A3363 /* GroupRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 719DE2AC22BA7BB8008A3363 /* GroupRequest.swift */; };
@@ -73,7 +73,7 @@
 		719DE2A522BA7BB7008A3363 /* Completable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Completable.swift; sourceTree = "<group>"; };
 		719DE2A622BA7BB7008A3363 /* Returnable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Returnable.swift; sourceTree = "<group>"; };
 		719DE2A722BA7BB7008A3363 /* EndPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EndPoint.swift; sourceTree = "<group>"; };
-		719DE2A822BA7BB8008A3363 /* Networking.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
+		719DE2A822BA7BB8008A3363 /* NetworkingKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkingKit.swift; sourceTree = "<group>"; };
 		719DE2AA22BA7BB8008A3363 /* RetryManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RetryManager.swift; sourceTree = "<group>"; };
 		719DE2AB22BA7BB8008A3363 /* CompleteHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompleteHandler.swift; sourceTree = "<group>"; };
 		719DE2AC22BA7BB8008A3363 /* GroupRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupRequest.swift; sourceTree = "<group>"; };
@@ -141,7 +141,7 @@
 			children = (
 				719DE2A922BA7BB8008A3363 /* Utilities */,
 				719DE2A322BA7BB7008A3363 /* Config Protocols */,
-				719DE2A822BA7BB8008A3363 /* Networking.swift */,
+				719DE2A822BA7BB8008A3363 /* NetworkingKit.swift */,
 				719DE29822BA7B9B008A3363 /* NetworkingKit.h */,
 				719DE29922BA7B9B008A3363 /* Info.plist */,
 			);
@@ -179,7 +179,6 @@
 				36FE0C365DB27323946A031B /* Pods-NetworkingKitTest.debug.xcconfig */,
 				2C0F4B12A8C5DE899D330881 /* Pods-NetworkingKitTest.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -383,7 +382,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				719DE2B122BA7BB8008A3363 /* Returnable.swift in Sources */,
-				719DE2B322BA7BB8008A3363 /* Networking.swift in Sources */,
+				719DE2B322BA7BB8008A3363 /* NetworkingKit.swift in Sources */,
 				719DE2B422BA7BB8008A3363 /* RetryManager.swift in Sources */,
 				719DE2B622BA7BB8008A3363 /* GroupRequest.swift in Sources */,
 				719DE2B822BA7BB8008A3363 /* JSONObject.swift in Sources */,

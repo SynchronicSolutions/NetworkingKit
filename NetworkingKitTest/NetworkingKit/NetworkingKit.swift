@@ -20,8 +20,8 @@ public enum ReachabilityStatus: Equatable {
     case reachable(ConnectionType)
 }
 
-public class Networking {
-    public static let instance = Networking()
+public class NetworkingKit {
+    public static let instance = NetworkingKit()
 
     let reachabilityManager = NetworkReachabilityManager(host: "apple.com")
 
@@ -30,7 +30,7 @@ public class Networking {
     }
 
     public static var reachabilityStatus: ReachabilityStatus {
-        guard let reachabilityManager = Networking.instance.reachabilityManager else {
+        guard let reachabilityManager = NetworkingKit.instance.reachabilityManager else {
             return .notReachable
         }
 
